@@ -21,10 +21,8 @@
             </nav>
         </div>
     </header>
-
     <main class="container">
-      <h1>Путешествие в Японию. Помогатор для первой поездки! ^_^</h1>
-        
+      <h1>Путешествие в Японию. Помогатор для первой поездки! ^_^</h1>        
        <div class="page-nav">
           <ul>
               <li><a href="#section1">Почему в Японию стоит поехать</a></li>
@@ -32,18 +30,15 @@
               <li><a href="#section3">Форма для связи</a></li>
           </ul>
       </div>
-
         <section id="section1">
             <h2>Почему в Японию все-таки стоит поехать?</h2>
-            <p>Япония — это уникальная страна, где древние традиции гармонично сочетаются с современными технологиями. Вам стоит посетить эту страну хотя бы по нескольким причинам:</p>
-            
+            <p>Япония — это уникальная страна, где древние традиции гармонично сочетаются с современными технологиями. Вам стоит посетить эту страну хотя бы по нескольким причинам:</p>        
             <ul>
                 <li>Богатая культура и история</li>
                 <li>Вкусная и разнообразная кухня</li>
                 <li>Чистота и порядок во всем</li>
                 <li>Уникальные природные ландшафты</li>
             </ul>
-            
             <h3>Лучшие места для посещения:</h3>
             <ol>
                 <li>Токио — столица и крупнейший мегаполис</li>
@@ -51,21 +46,15 @@
                 <li>Осака — также очень много храмов и святилищ</li>
                 <li>Нара — там есть олени!</li>
             </ol>
-
-  
             <img src="C:\Users\пося\Desktop\учеба\html\japan\72a06dc4eed81a9527053e5b4cf1dc6a.jpg" class="thumbnail">
             <img src="C:\Users\пося\Desktop\учеба\html\japan\30919c3005dafcd1fe6f7a5c38b1a7cd.jpg" class="thumbnail">
             <img src="C:\Users\пося\Desktop\учеба\html\japan\b7b737d74b6e6d6758312bf0c1134ac9.jpg" class="thumbnail">
-            <img src="C:\Users\пося\Desktop\учеба\html\japan\7fbf30502eff6bbc376f7c0a83cbbf9e.jpg" class="thumbnail">
-            
+            <img src="C:\Users\пося\Desktop\учеба\html\japan\7fbf30502eff6bbc376f7c0a83cbbf9e.jpg" class="thumbnail">          
         </section>
-
         <section id="section2">
-            <h2>Планирование поездки</h2>
-            
-            <p>Правильное и детальное планирование — залог успешного путешествия. Вот что нужно учесть при подготовке к поездке в Японию:</p>
-            
-            <ul>
+            <h2>Планирование поездки</h2>           
+            <p>Правильное и детальное планирование — залог успешного путешествия. Вот что нужно учесть при подготовке к поездке в Японию:</p>         
+          <ul>
                 <li>Документы и виза
                     <ul>
                         <li>Обязательно потребуется загранпаспорт, который должен быть действителен в течение <i>всей</i> поездки!!!</li>
@@ -87,8 +76,7 @@
                         <li>Есть вариант арендовать автомобиль</li>
                     </ul>
                 </li>
-            </ul>
-            
+            </ul>            
             <table class="japan-table">
                 <thead>
                     <tr>
@@ -116,40 +104,32 @@
                 </tbody>
             </table>
         </section>
-
         <section id="section3">
-            <h2>Формы для связи</h2>
-            
+            <h2>Формы для связи</h2>         
             <div class="form-section">
                 <h3>Контактные данные</h3>
                 <form action="form.html" method="POST">
-                    <input type="hidden" name="form_type" value="contact">
-                    
+                    <input type="hidden" name="form_type" value="contact">                
                     <div class="form-group">
                         <label for="lastname">Фамилия:</label>
                         <input type="text" id="lastname" name="lastname" required>
-                    </div>
-                    
+                    </div>              
                     <div class="form-group">
                         <label for="firstname">Имя:</label>
                         <input type="text" id="firstname" name="firstname" required>
-                    </div>
-                                        
+                    </div>                                    
                     <div class="form-group">
                         <label for="phone">Мобильный телефон:</label>
                         <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    
+                    </div>                
                     <div class="form-group">
                         <label for="email">Электронная почта:</label>
                         <input type="email" id="email" name="email" required>
-                    </div>
-            
+                    </div>           
                 <h3>Заказ тура в Японию</h3>
                 <form action="form.html" method="POST">
                     <input type="hidden" name="form_type" value="tour_order">
-                    <input type="hidden" name="default_value" value="japan_tour">
-                    
+                    <input type="hidden" name="default_value" value="japan_tour">                    
                     <div class="form-group">
                         <label for="tour_type">Тип тура:</label>
                         <div class="radio-group">
@@ -168,12 +148,10 @@
                         <label for="special_requests">Количество человек:</label>
                         <textarea id="special_requests" name="special_requests" rows="1"></textarea>
                     </div>
-
                     <div class="form-group">
                         <label for="duration">Продолжительность (дней):</label>
                         <input type="number" id="duration" name="duration" min="5" max="30" value="10">
-                    </div>
-                    
+                    </div> 
                     <div class="form-group">
                         <label for="cities">Города для посещения:</label>
                         <div class="checkbox-group">
@@ -193,23 +171,19 @@
                                 <input type="checkbox" name="cities" value="other"> Другое
                             </label>
                         </div>
-                    </div>
-                    
+                    </div>     
                     <div class="form-group">
                         <label for="budget">Бюджет на человека ($):</label>
                         <input type="number" id="budget" name="budget" min="1000" step="100" value="2000">
-                    </div>
-                    
+                    </div> 
                     <div class="form-group">
                         <label for="travel_date">Планируемая дата поездки:</label>
                         <input type="date" id="travel_date" name="travel_date" required>
-                    </div>
-                    
+                    </div>   
                     <div class="form-group">
                         <label for="special_requests">Особые пожелания:</label>
                         <textarea id="special_requests" name="special_requests" rows="4"></textarea>
-                    </div>
-                                        
+                    </div>                     
                    <button type="submit">Отправить</button>
                 </form>
             </div>
