@@ -1,4 +1,4 @@
-ссылка на нормальный сайт: 
+ссылка на нормальный сайт: https://sverhnovayaa.ru/japantrip.html
 
 <!DOCTYPE html>
 <html lang="en">
